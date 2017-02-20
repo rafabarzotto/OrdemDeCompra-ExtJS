@@ -148,7 +148,8 @@ Ext.define('OC.controller.Material', {
 						departamento: valuesObs.departamento,
 						aplicacao: valuesObs.aplicacao,
 						prazo: valuesObs.prazo,
-						situacao: 0
+						situacao: 0,
+						ent: values.ent
 					});
 
 					//codifica os dados em JSON

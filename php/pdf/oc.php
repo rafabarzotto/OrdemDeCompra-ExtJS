@@ -85,7 +85,8 @@ if ($resultdb = $mysqli->query($sql)) {
     FROM ordem, processos, credores, entidades, usuarios
     WHERE (ordem.i_processo = processos.i_processo) and 
     (ordem.id = '$nOrdem') and (ordem.ano = processos.i_ano_proc) and
-    (ordem.i_credores = credores.i_credores) and 
+    (ordem.i_credores = credores.i_credores) and
+    (ordem.i_entidades = credores.i_entidades) and
     (ordem.id_entidade = entidades.id) and
     (ordem.nome = usuarios.login)";
 

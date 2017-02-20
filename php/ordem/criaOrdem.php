@@ -23,13 +23,14 @@
 	$aplicacao = $data->aplicacao;
 	$prazo = $data->prazo;
 	$situacao = $data->situacao;
+	$ent = $data->ent;
 
 
 	//consulta sql
 	$query = sprintf("INSERT INTO ordem (dataPedido, ano, i_processo, 
 		i_credores, id_entidade, solicitante, 
-		departamento, aplicacao, prazo, nome ,situacao) 
-	values ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')",
+		departamento, aplicacao, prazo, nome, situacao, i_entidades) 
+	values ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')",
 		mysql_real_escape_string($dataPedido),
 		mysql_real_escape_string($ano),
 		mysql_real_escape_string($i_processo),
@@ -40,7 +41,8 @@
 		mysql_real_escape_string($aplicacao),
 		mysql_real_escape_string($prazo),
 		mysql_real_escape_string($userName),
-	    mysql_real_escape_string($situacao));
+	    mysql_real_escape_string($situacao),
+	    mysql_real_escape_string($ent));
 
 	$rs = mysql_query($query);
 
@@ -57,7 +59,8 @@
 			"departamento" => $departamento,
 			"aplicacao" => $aplicacao,
 			"prazo" => $prazo,
-			"situacao" => $situacao
+			"situacao" => $situacao,
+			"ent" => $ent
 		)
 	));
 
