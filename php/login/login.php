@@ -1,6 +1,7 @@
 <?php
 
 require("../conectar.php");
+include("../util/utf8size.php");
 
 session_start();
 
@@ -46,5 +47,5 @@ if ($resultdb = $mysqli->query($sql)) {
 $mysqli->close();
 
 //JSON encoding
-echo json_encode($result);
+echo json_encode(utf8size($result));
 ?>

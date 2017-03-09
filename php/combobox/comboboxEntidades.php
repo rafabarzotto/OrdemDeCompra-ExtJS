@@ -1,6 +1,7 @@
 <?php
     //chama o arquivo de conexão com o bd
     include("../conectar.php");
+    include("../util/utf8size.php");
 
     //consulta sql
     $query = mysql_query("SELECT id, nome FROM entidades") or die(mysql_error());
@@ -12,5 +13,5 @@
     }
 
     //encoda para formato JSON
-    echo json_encode($rows);
+    echo json_encode(utf8size($rows));
 ?>

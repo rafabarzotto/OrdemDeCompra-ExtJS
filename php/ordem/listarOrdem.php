@@ -1,6 +1,7 @@
 <?php
 	//chama o arquivo de conexão com o bd
 	include("../conectar.php");
+	include("../util/utf8size.php");
 
 	$start = $_REQUEST['start'];
 	$limit = $_REQUEST['limit'];
@@ -24,11 +25,14 @@
 	$total = $row['num'];
 
 	//encoda para formato JSON
-	echo json_encode(array(
+	$status = array(
 		"success" => mysql_errno() == 0,
 		"total" => $total,
 		"data" => $datas
-	));
+	);
+
+	echo json_encode(utf8size($status));
 
 	$mysqli->close();
+
 ?>
