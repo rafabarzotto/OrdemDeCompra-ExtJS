@@ -3,15 +3,37 @@
 	include("../conectar.php");
    include("../util/utf8size.php");
 
-	$start = $_REQUEST['start'];
-	$limit = $_REQUEST['limit'];
+   function soNumero($str) {
+      return preg_replace("/[^0-9]/", "", $str);
+   }
 
-	$ano = $_REQUEST['ano'];
-	$processo = $_REQUEST['processo'];
-   $ent = $_REQUEST['ent'];
+   session_start();
+
+   $start = $_REQUEST['start'];
+   $limit = $_REQUEST['limit'];
+
+   if (isset($_REQUEST['ent'])) {
+      $_SESSION['url'] = $_SERVER['QUERY_STRING'];
+      $ent = $_REQUEST['ent'];
+      $ano = $_REQUEST['ano'];
+      $processo = $_REQUEST['processo'];
+   }
+
+   else {
+      $url = explode("&", $_SESSION['url']);
+      $ent = soNumero($url[1]);
+      $ano = soNumero($url[2]);
+      $processo = soNumero($url[3]);
+   }
+
+   // echo $processo;
+
+   // if (strpos($url[1], 'page') !== false){
+
+   // }
 
 
-	$queryString = "SELECT   credores.nome,
+	$queryString = "SELECT credores.nome,
          participantes.i_credores,   
          participantes.i_item,  
          material.nome_mat, 
@@ -48,8 +70,6 @@
 	while($data = mysql_fetch_assoc($query)) {
 	    $datas[] = $data;
 	}
-
-	//echo $logs;
 
 	//consulta total de linhas na tabela
 	$queryTotal = mysql_query("SELECT count(*) as num FROM participantes,   

@@ -50,6 +50,8 @@ Ext.define('OC.controller.Material', {
 			store = grid.getStore(),
 			gridOc = Ext.ComponentQuery.query('consultamaterial gridordem')[0],
 			storeOc = gridOc.getStore();
+			store.removeAll();
+			store.currentPage = 1;
 
 		store.load({
 			params: {
