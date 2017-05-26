@@ -62,7 +62,9 @@ Ext.define('OC.controller.Material', {
 			}
 		});
 
-		storeOc.removeAll();
+		if (values.nome_mat == ""){
+			storeOc.removeAll();
+		}
 	},
 
 	onWindowRender: function(consultamaterial, eOpts) {
