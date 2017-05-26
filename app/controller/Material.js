@@ -58,6 +58,7 @@ Ext.define('OC.controller.Material', {
 				ent: values.ent,
 				ano: values.ano,
 				processo: values.processo,
+				nome_mat: values.nome_mat
 			}
 		});
 

@@ -17,6 +17,7 @@
       $ent = $_REQUEST['ent'];
       $ano = $_REQUEST['ano'];
       $processo = $_REQUEST['processo'];
+      $nome_mat = $_REQUEST['nome_mat'];
    }
 
    else {
@@ -24,6 +25,7 @@
       $ent = soNumero($url[1]);
       $ano = soNumero($url[2]);
       $processo = soNumero($url[3]);
+      $nome_mat = '';
    }
 
    // echo $processo;
@@ -60,7 +62,8 @@
          (participantes.i_entidades = '$ent') AND   
          (itens_processo.i_ano_proc = '$ano') AND
          (itens_processo.i_processo = '$processo') AND
-         (itens_processo.i_entidades = '$ent') LIMIT $start, $limit";
+         (itens_processo.i_entidades = '$ent') AND 
+         (nome_mat LIKE '%$nome_mat%')LIMIT $start, $limit";
 
 	//consulta sql
 	$query = mysql_query($queryString) or die(mysql_error());

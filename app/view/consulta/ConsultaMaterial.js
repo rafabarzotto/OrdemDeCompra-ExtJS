@@ -148,6 +148,10 @@ Ext.define('OC.view.consulta.ConsultaMaterial', {
 				fieldLabel: 'Processo',
 				name: 'processo',
 				allowBlank: false // requires a non-empty value
+			},{
+				xtype: 'textfield',
+				fieldLabel: 'Material',
+				name: 'nome_mat'
 			}]
 		},
 
