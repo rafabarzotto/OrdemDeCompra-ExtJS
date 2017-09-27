@@ -1,0 +1,25 @@
+SELECT   credores.nome,
+         participantes.i_credores,
+         participantes.i_item,
+         participantes.qtde_cotada,
+         participantes.vlr_descto,
+         participantes.preco_unit_part,
+         participantes.preco_total,
+         participantes.nome_marca,
+         itens_processo.i_material,
+         material.nome_mat
+    FROM participantes,
+         credores,
+         itens_processo,
+         material
+   WHERE ( credores.i_credores = participantes.i_credores ) AND
+         ( credores.i_entidades = participantes.i_entidades) AND
+         ( participantes.i_item = itens_processo.i_item) AND
+         ( participantes.i_ano_proc = itens_processo.i_ano_proc) AND
+         ( participantes.i_processo = itens_processo.i_processo) AND
+         ( material.i_material = itens_processo.i_material) AND
+         (participantes.i_ano_proc = 2017) AND
+         (participantes.i_processo = 35) AND
+         (participantes.situacao = 2) AND
+         (participantes.i_entidades = 1) AND
+         (material.i_entidades = 1)
