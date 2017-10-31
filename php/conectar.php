@@ -1,16 +1,16 @@
 <?php
 
 //nome do servidor (127.0.0.1)
-$servidor = "192.168.200.10";
+$servidor = "127.0.0.1";
  
 //usuário do banco de dados
 $user = "root";
  
 //senha do banco de dados
-$senha = "qwe123";
+$senha = "";
  
 //nome da base de dados
-$db = "OC";
+$db = "teste";
  
 //executa a conexão com o banco, caso contrário mostra o erro ocorrido
 $conexao = mysql_connect($servidor,$user,$senha) or die (mysql_error());

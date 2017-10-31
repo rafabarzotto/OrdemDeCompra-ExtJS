@@ -22,7 +22,8 @@ Ext.define('OC.Application', {
     stores: [
         'OC.store.Material', 'OC.store.ItensOrdem', 
         'OC.store.combobox.ComboboxEntidades', 
-        'OC.store.Usuarios', 'OC.store.Ordem'
+        'OC.store.Usuarios', 'OC.store.Ordem',
+        'OC.store.dash.TotalXMes', 'OC.store.dash.TotalXAno'
     ],
 
     splashscreen: {},
