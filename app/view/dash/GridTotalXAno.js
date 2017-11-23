@@ -19,10 +19,6 @@ Ext.define('OC.view.dash.GridTotalXAno', {
                 width    : 75,
                 dataIndex: 'Ano'
             },{
-                text   : 'Quantidade',
-                width    : 75,
-                dataIndex: 'Qtd'
-            },{
                 text   : 'Total Gasto no Ano',
                 width    : 200,
                 renderer : 'usMoney',

@@ -57,6 +57,7 @@ Ext.define('OC.view.consulta.ConsultaMaterial', {
 		xtype: 'form',
 		height: 40,
 		itemId: 'formObs',
+		id: 'formObs',
 		layout: {
 			type: 'hbox',
 			align: 'middle',

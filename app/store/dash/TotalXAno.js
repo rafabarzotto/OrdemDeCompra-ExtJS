@@ -1,7 +1,7 @@
 Ext.define('OC.store.dash.TotalXAno', {
 	extend: 'Ext.data.Store',
 
-	fields: ['Ano', 'Qtd', 'Total'],
+	fields: ['Ano', 'Total'],
 
 	//pageSize: 10, // PAGINAGINA MAXIMA
 

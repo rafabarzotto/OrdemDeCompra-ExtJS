@@ -74,6 +74,29 @@
     background-image: url(../images/chart.png) !important;
 }
 
+.icon-world {
+    background-image: url(../images/world.png) !important;
+}
+
+.icon-world_link {
+    background-image: url(../images/world_link.png) !important;
+}
+
+.icon-car {
+    background-image: url(../images/car.png) !important;
+}
+
+.icon-door {
+    background-image: url(../images/door.png) !important;
+}
+
+.icon-car_add {
+    background-image: url(../images/car_add.png) !important;
+}
+
+.icon-table_add {
+    background-image: url(../images/table_add.png) !important;
+}
 
 /* CSS LiveSearchGridPanel */
 .x-livesearch-match {

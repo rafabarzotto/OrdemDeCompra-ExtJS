@@ -16,14 +16,15 @@ Ext.define('OC.Application', {
     controllers: [
         'Login', 'OC.controller.Main', 'OC.controller.Material', 
         'OC.controller.usuarios.Users', 
-        'OC.controller.Ordem', 'OC.controller.CancelarOrdem'
+        'OC.controller.Ordem', 'OC.controller.CancelarOrdem', 'OC.controller.Frotas'
     ],
 
     stores: [
         'OC.store.Material', 'OC.store.ItensOrdem', 
         'OC.store.combobox.ComboboxEntidades', 
         'OC.store.Usuarios', 'OC.store.Ordem',
-        'OC.store.dash.TotalXMes', 'OC.store.dash.TotalXAno'
+        'OC.store.dash.TotalXMes', 'OC.store.dash.TotalXAno', 
+        'OC.store.frotas.Frotas'
     ],
 
     splashscreen: {},

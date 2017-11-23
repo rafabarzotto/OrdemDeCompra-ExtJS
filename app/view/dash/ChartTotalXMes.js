@@ -52,9 +52,10 @@ Ext.define('OC.view.dash.ChartTotalXMes', {
                     },
                     label: {
                         display: 'insideEnd',
-                        'text-anchor': 'middle',
-                        field: 'Qtd',
-                        color: '#333'
+                        'text-anchor': 'center',
+                        field: 'Total',
+                        color: '#333',
+                        renderer: Ext.util.Format.numberRenderer('0,0.0')
                     },
                     xField: 'Mes',
                     yField: 'Total',

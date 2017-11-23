@@ -1,0 +1,13 @@
+CREATE TABLE departamento (id serial, descricao varchar(40)) CHARACTER SET utf8 COLLATE utf8_general_ci;
+INSERT INTO departamento (descricao) VALUES ('SEC. DE OBRAS');
+INSERT INTO departamento (descricao) VALUES ('SEC. DE EDUCAÇÃO');
+INSERT INTO departamento (descricao) VALUES ('SEC. DE SAÚDE');
+INSERT INTO departamento (descricao) VALUES ('FUNREBOM');
+INSERT INTO departamento (descricao) VALUES ('DEMAE');
+INSERT INTO departamento (descricao) VALUES ('POLICIA MILITAR');
+INSERT INTO departamento (descricao) VALUES ('SEC. DE AGRICULTURA');
+INSERT INTO departamento (descricao) VALUES ('HOSPITAL');
+INSERT INTO departamento (descricao) VALUES ('ADMINISTRAÇÃO');
+INSERT INTO departamento (descricao) VALUES ('CONSELHO TUTELAR');
+INSERT INTO departamento (descricao) VALUES ('SEC DE ASS. SOCIAL');
+INSERT INTO departamento (descricao) VALUES ('VIGILANCIA SANITARIA');

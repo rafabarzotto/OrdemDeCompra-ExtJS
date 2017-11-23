@@ -21,7 +21,7 @@ Ext.define('OC.view.Main', {
         defaults: { //aplica em todos os itens
             //anchor: '100%',
             //scale: 'medium',
-            labelAlign: 'left'
+            //labelAlign: 'right'
                 //mgsTarget: 'side'
         },
 
@@ -38,8 +38,6 @@ Ext.define('OC.view.Main', {
                     text: 'Ordens Emitidas',
                     id: 'arqB',
                     iconCls: 'icon-folder'
-                }, {
-                    text: 'Item 3'
                 }, '-', {
                     text: 'Logout',
                     id: 'logout',
@@ -65,8 +63,6 @@ Ext.define('OC.view.Main', {
                     text: 'Graficos',
                     id: 'relB',
                     iconCls: 'icon-chart'
-                }, {
-                    text: 'Item 4'
                 }]
             },
 
@@ -81,17 +77,17 @@ Ext.define('OC.view.Main', {
                 iconCls: 'icon-wrench',
                 itemId: 'opcoes',
                 menu: [{
-                    text: 'Abrir Cadastro de User',
+                    text: 'Cadastro de Usuário',
                     id: 'opA',
                     iconCls: 'icon-user-add'
                 }, {
-                    text: 'Cancelar Ordem',
+                    text: 'Cadastro de Departamento',
                     id: 'opB',
+                    iconCls: 'icon-door'
+                }, {
+                    text: 'Cancelar Ordem',
+                    id: 'opC',
                     iconCls: 'icon-cancel'
-                }, {
-                    text: 'Item 3'
-                }, {
-                    text: 'Item 4'
                 }]
             },
 
@@ -101,18 +97,24 @@ Ext.define('OC.view.Main', {
             },
 
             {
+                text: 'Frotas',
+                arrowAlign: 'right',
+                iconCls: 'icon-car',
+                itemId: 'frotas',
+                menu: [{
+                    text: 'Consulta',
+                    id: 'frotasA',
+                    iconCls: 'icon-car_add',
+                }]
+            },
+
+            {
                 text: 'Ajuda',
                 arrowAlign: 'right',
                 iconCls: 'icon-help',
                 itemId: 'sobre',
                 menu: [{
                     text: 'Sobre',
-                }, {
-                    text: 'Item 2',
-                }, {
-                    text: 'Item 3'
-                }, {
-                    text: 'Item 4'
                 }]
             }
 

@@ -1,0 +1,1 @@
+SELECT veiculos.id, veiculos.placa, veiculos.renavam, veiculos.ano_modelo, veiculos.descricao, departamento.descricao FROM VEICULOS, DEPARTAMENTO WHERE (departamento.id = veiculos.id_departamento)

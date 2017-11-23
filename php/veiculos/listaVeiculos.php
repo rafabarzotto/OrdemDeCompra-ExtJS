@@ -3,7 +3,7 @@
 	include("../conectar.php");
 	include("../util/utf8size.php");
 
-	$queryString = 'SELECT month(str_to_date(ordem.dataPedido, "%d/%m/%Y")) AS Mes, sum(subtotal) AS Total FROM itens_ordem, ordem WHERE year(str_to_date(ordem.dataPedido, "%d/%m/%Y")) = YEAR(curdate()) and (itens_ordem.id_ordem = ordem.id) and (ordem.situacao = 0) GROUP BY month(str_to_date(ordem.dataPedido, "%d/%m/%Y"))';
+	$queryString = "SELECT veiculos.id, veiculos.placa, veiculos.renavam, veiculos.ano_modelo, veiculos.descricao, departamento.descricao AS departamento FROM veiculos, departamento WHERE (departamento.id = veiculos.id_departamento)";
 
 	//consulta sql
 	$query = mysql_query($queryString) or die(mysql_error());

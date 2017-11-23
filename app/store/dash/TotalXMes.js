@@ -1,7 +1,7 @@
 Ext.define('OC.store.dash.TotalXMes', {
 	extend: 'Ext.data.Store',
 
-	fields: ['Mes', 'Qtd', 'Total'],
+	fields: ['Mes', 'Total'],
 
 	//pageSize: 10, // PAGINAGINA MAXIMA
 
