@@ -1,3 +1,9 @@
 ext/
 ux/.DS_Store
+php/.DS_Store
+app/.DS_Store
+ux/.DS_Store
+sass/.DS_Store
+resources/.DS_Store
+SQL/.DS_Store
 .DS_Store

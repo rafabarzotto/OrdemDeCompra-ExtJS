@@ -82,11 +82,11 @@ Ext.define('OC.view.Main', {
                     iconCls: 'icon-user-add'
                 }, {
                     text: 'Cadastro de Departamento',
-                    id: 'opB',
+                    id: 'opC',
                     iconCls: 'icon-door'
                 }, {
                     text: 'Cancelar Ordem',
-                    id: 'opC',
+                    id: 'opB',
                     iconCls: 'icon-cancel'
                 }]
             },
