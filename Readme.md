@@ -1,4 +1,8 @@
-Sistema Web desenvolvido em ExtJS+PHP para emissão de Ordens de Compra baseado em processos licitatórios.
+# Sistema de Emissão de Ordens de Compra baseado em processos licitatórios
+
+
+
+Sistema Web desenvolvido com o Framework ExtJS 4.2 para emissão de Ordens de Compra baseado em processos licitatórios.
 
 
 ![](http://imagizer.imageshack.us/v2/640x480q90/901/PjgNkk.jpg)
@@ -8,26 +12,34 @@ Sistema Web desenvolvido em ExtJS+PHP para emissão de Ordens de Compra baseado 
 
 ----
 
-# ./controller
+## License
 
-This folder contains the controllers
+Copyright (c) 2014 Rafael Barzotto
 
-# ./model
+GPL (http://www.opensource.org/licenses/gpl-license.php) license.
 
-This folder contains the models
+----
 
-# ./view
+# app/controller
 
-This folder contains the views
+  - This folder contains the controllers
 
-# ./store
+# app/model
 
-This folder contains the stores
+  - This folder contains the models
 
-# ./php
+# app/view
 
-This folder contains the back-ends archives
+  - This folder contains the views
 
-# ./sql
+# app/store
 
-This folder contains the sql scripts
+  - This folder contains the stores
+
+# /php
+
+  - This folder contains the back-ends archives
+
+# /sql
+
+  - This folder contains the sql scripts
