@@ -44,4 +44,8 @@ GPL (http://www.opensource.org.licenses/glp-license.php) license.
 
 ## /sql
 
+<<<<<<< HEAD
   - This folder contains the sql scripts
+=======
+  - This folder contains the sql scripts
+>>>>>>> d1e97e2ecbc06805d2644195d0636b56596ce904
