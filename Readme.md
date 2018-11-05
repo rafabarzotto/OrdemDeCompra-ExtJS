@@ -4,7 +4,7 @@
 
 Sistema Web desenvolvido com o Framework ExtJS 4.2.1 (883) para emissão de Ordens de Compra baseado em processos licitatórios.
 
-Em desenvolvimento um modulo de controle de frotas onde é possível saber todas as informações necessarias sobre um veículo visando controlar os vencimentos de documentação dos mesmos, com link direto ao site do detran/sc para realizar consultas com maior agilidade.
+Em desenvolvimento um modulo de controle de frotas onde é possível saber todas as informações necessárias sobre um veículo visando controlar os vencimentos de documentação dos mesmos, com link direto ao site do detran/sc para realizar consultas com maior agilidade.
 
 
 ## Instalação
@@ -14,9 +14,9 @@ O Sistema foi desenvolvido utilizando as seguintes versões:
  - Apache 2.4.23 ou superior
  - MariaDB 10.1.16 ou superior
 
-Estes 3 componetes podem ser encontrados na distribuição 5.6.24 do XAMPP.
+Estes 3 componentes podem ser encontrados na distribuição 5.6.24 do XAMPP.
 
-Para utilização dos componentes em suas versões atuais são necessarias alterações nos codigos fontes.
+Para utilização dos componentes em suas versões atuais são necessárias alterações nos códigos fontes.
 
 Para instalação:
  - Clonar esse repositório em sua pasta htdocs ou www
