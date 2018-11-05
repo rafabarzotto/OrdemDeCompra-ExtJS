@@ -4,10 +4,7 @@
 
 Sistema Web desenvolvido com o Framework ExtJS 4.2.1 (883) para emissão de Ordens de Compra baseado em processos licitatórios.
 
-
-![](http://imagizer.imageshack.us/v2/640x480q90/901/PjgNkk.jpg)
-
-![](http://imagizer.imageshack.us/v2/640x480q90/673/KNg112.jpg)
+Em desenvolvimento um modulo de controle de frotas onde é possível saber todas as informações necessarias sobre um veículo visando controlar os vencimentos de documentação dos mesmos, com link direto ao site do detran/sc para realizar consultas com maior agilidade.
 
 
 ## Instalação
@@ -35,11 +32,20 @@ Para instalação:
 ----
 ## License
 
-Copyright (c) 2014 Rafael Barzotto
+Copyright (c) 2018 Rafael Barzotto
 
-GPL (http://opensource.org/licenses/glp-license.php) license.
+GPL (https://opensource.org/licenses/gpl-license) license.
+
+Sobre a Licença: GNU General Public License (GPL)
+
+A GPL é a licença para software livre com maior utilização. Ela se baseia em 4 liberdades: (1) a liberdade de executar o programa, para qualquer propósito; (2) a liberdade de estudar como o programa funciona e adaptá-lo às suas necessidades; (3) a liberdade de redistribuir cópias de modo que você possa ajudar ao seu próximo; e (4) a liberdade de aperfeiçoar o programa, e liberar suas modificações, de modo que toda a comunidade se beneficie delas.
+O acesso ao código-fonte é um pré-requisito para seus objetivos serem atingidos. Com a garantia destas liberdades, a GPL permite que os programas sejam distribuídos e reaproveitados, **mantendo, porém, os direitos do autor.**
+
+Texto da licença: http://www.gnu.org/licenses/gpl.html
 
 ----
+
+
 
 ## app/controller
 
@@ -64,3 +70,16 @@ GPL (http://opensource.org/licenses/glp-license.php) license.
 ## /sql
 
   - This folder contains the sql scripts
+  
+----
+## Imagens do Sistema  
+  
+![](https://i.imgur.com/dIthPTn.jpg)
+
+![](https://i.imgur.com/Mzo8o3V.jpg)
+
+![](https://i.imgur.com/JomrYsE.jpg)
+
+![](https://i.imgur.com/xDiKsK1.jpg)
+
+![](https://i.imgur.com/XZAEg0I.jpg)
