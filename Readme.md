@@ -9,7 +9,7 @@ Sistema Web desenvolvido com o Framework ExtJS 4.2.1 (883) para emissão de Orde
 
 ![](http://imagizer.imageshack.us/v2/640x480q90/673/KNg112.jpg)
 
-----
+
 ## Instalação
 
 
@@ -18,7 +18,8 @@ Sistema Web desenvolvido com o Framework ExtJS 4.2.1 (883) para emissão de Orde
 
 Copyright (c) 2014 Rafael Barzotto
 
-GPL (http://www.opensource.org/licenses/gpl-license.php) license.
+GPL (http://www.opensource.org.licenses/glp-license.php) license.
+
 ----
 
 ## app/controller
