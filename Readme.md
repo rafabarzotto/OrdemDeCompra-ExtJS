@@ -19,13 +19,14 @@ Estes 3 componentes podem ser encontrados na distribuição 5.6.24 do XAMPP.
 Para utilização dos componentes em suas versões atuais são necessárias alterações nos códigos fontes.
 
 Para instalação:
- - Clonar esse repositório em sua pasta htdocs ou www
+ - Clonar esse repositório em sua pasta htdocs ou www do Apache
  - Fazer o download do Framework EXTJS 4.2.1 GLP (http://cdn.sencha.com/ext/gpl/ext-4.2.1-gpl.zip)
  - Extrair a pasta ext do Framework EXTJS 4.2.1 para dentro do repositório antes clonado.
  - Rodar em seu SGDB o script SQL "script_limpo.sql" disponível na pasta SQL/scrips
- - Configurar o arquivo php/conectar.php fornecendo o host/ip/porta/nome do banco para possibilidar a conexão
+ - Configurar o arquivo php/conectar.php fornecendo o host/ip/porta/nome do banco para possibilitar a conexão
  - Por fim entrar na URL de acordo com a pasta Clonada (http://localhost/OrdemDeCompras-ExtJS) com o usuário admin/qwe123
- - Pronto para o uso.
+ - Pronto para o uso
+ - Em sistemas Linux/MacOS pode ser necessário dar permissões de leitura e escrita na pasta raiz do sistema para evitar qualquer problema com a biblioteca tcPDF.
 
 Obs: Na pasta SQL/scripts existe um dump sql completo que pode ser utilizado para fins de testes/validação.
 
