@@ -10,7 +10,7 @@ $user = "root";
 $senha = "";
  
 //nome da base de dados
-$db = "teste";
+$db = "OC";
  
 //executa a conexão com o banco, caso contrário mostra o erro ocorrido
 $conexao = mysql_connect($servidor,$user,$senha) or die (mysql_error());
