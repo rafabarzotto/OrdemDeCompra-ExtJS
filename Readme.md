@@ -22,10 +22,9 @@ Para instalação:
  - Clonar esse repositório em sua pasta htdocs ou www
  - Fazer o download do Framework EXTJS 4.2.1 GLP (http://cdn.sencha.com/ext/gpl/ext-4.2.1-gpl.zip)
  - Extrair a pasta ext do Framework EXTJS 4.2.1 para dentro do repositório antes clonado.
- - Rodar o script SQL "script_limpo.sql" disponível na pasta SQL/scrips dentro de seu SGDB
- - Inserir o primeiro usuário manualmente diretamente no banco
- - Configurar o arquivo php/conectar.php fornecendo o host/ip/porta/nome do banco
- - Por fim entrar na URL de acordo com a pasta Clonada (http://localhost/OrdemDeCompras-ExtJS)
+ - Rodar em seu SGDB o script SQL "script_limpo.sql" disponível na pasta SQL/scrips
+ - Configurar o arquivo php/conectar.php fornecendo o host/ip/porta/nome do banco para possibilidar a conexão
+ - Por fim entrar na URL de acordo com a pasta Clonada (http://localhost/OrdemDeCompras-ExtJS) com o usuário admin/qwe123
  - Pronto para o uso.
 
 Obs: Na pasta SQL/scripts existe um dump sql completo que pode ser utilizado para fins de testes/validação.
